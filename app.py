@@ -4,6 +4,7 @@ st.set_page_config(
     page_title="Polymer Flood Screening Tool",
     page_icon="🧪",
     layout="wide",
+    initial_sidebar_state="expanded", # <-- forces sidebar open on load
 )
 
 st.title("🧪 Polymer Flood Screening & Design Tool")
